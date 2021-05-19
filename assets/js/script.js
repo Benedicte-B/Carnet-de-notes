@@ -148,7 +148,7 @@ buttonValider.click(function(){
         $('.caseHist').css('color', 'green');
     }
     else if (noteHist  >=16 && noteHist  < 20) {
-        $('.appHist').text(`La guerre froide n'a plus de secrets pour toi`);
+        $('.appHist').text(`La guerre froide n'a plus de secret`);
         $('.caseHist').css('color', 'darkgreen');
     }
     else if (noteHist  == 20) {
